@@ -107,7 +107,7 @@ label prologue_dream:
 
     "I bring my hand up to mouth and lick the wine off of my palm. {w}My cock is so hard that it's starting to hurt, it just might tear through my pants at any moment."
 
-    p "Not adressing your Master correctly and giving him orders."
+    p "Not addressing your Master correctly and giving him orders."
 
     p "You are being a very bad girl aren't you?"
 
