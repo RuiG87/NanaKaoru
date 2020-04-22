@@ -1,6 +1,8 @@
 label prologue_dream:
     default first = True
 
+    scene bg-kaoru_room_night
+
     "Slowly I open my eyes. {w}I glance around, trying to get bearing of my surroundings"
 
     "I find myself seated on an extremely comfortable leather chair, I can tell that it was rather expensive."
