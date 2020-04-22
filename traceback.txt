@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 11, in script call
+    call new_game
+  File "game/new_game.rpy", line 23, in script
+    jump rename_done
+ScriptError: could not find label 'rename_done'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 11, in script call
+    call new_game
+  File "game/new_game.rpy", line 23, in script
+    jump rename_done
+  File "C:\Users\RuiG_\Downloads\renpy-7.3.5-sdk\renpy\ast.py", line 1697, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\RuiG_\Downloads\renpy-7.3.5-sdk\renpy\script.py", line 898, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'rename_done'.
+
+Windows-8-6.2.9200
+Ren'Py 7.3.5.606
+NanaKaoru 1.0
+Wed Apr 22 19:47:17 2020

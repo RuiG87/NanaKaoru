@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/firstmorning_event.rpy", line 79: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        "Nana narrows her eyes and stares me.
+
+Ren'Py Version: Ren'Py 7.3.5.606
+Wed Apr 22 20:40:55 2020

@@ -31,6 +31,8 @@ label prologue_dream:
 
     "I glance over to the leash on my right hand, my eyes slowly trace along it's length and my gaze lands on what is attached to the other end."
 
+    show eileen happy
+
     "For a moment I hold my breath, for diagonally to me is a breathtaking sight."
 
     "Attached to the leash is the most beautiful girl one could lay his eyes upon. {w}She has long waist length black hair and I can spot right under her left eye the most sexy beauty mark."
@@ -132,3 +134,5 @@ label prologue_dream:
     "THUNK"
 
     p "OOF!!!"
+
+    return

@@ -2,21 +2,18 @@
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
-
-jump variables
+call variables
 
 # The game starts here.
-
 label start:
-    jump new_game
 
-    label rename_done:
-        
+    #Load the "New Game" intro
+    call new_game
 
-        show eileen happy
+    #Load the Dream Event
+    call prologue_dream
 
-        jump prologue_dream
+    #Load First Morning Event
+    call first_morning
 
-        "test return"
-
-        return
+    return
