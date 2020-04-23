@@ -10,24 +10,30 @@ label new_game:
     menu:
         "Do you wish to set a custom name for the Protagonist?"
 
-        "No (Default: Kaoru)":
+        "No (Default: Sugimura Kaoru)":
             jump .rename_no
         "Yes":
             jump .rename_yes
 
             label .rename_no:
-                $ p = "Kaoru"
+                $ k = "Kaoru"
 
-                "Default Protagonist name is [p]"
+                $ s = "Sugimura"
+
+                "Default Protagonist name is [s] [k]"
 
                 return
 
             label .rename_yes:
                 python:
-                    name = renpy.input("Enter new name for the Protagonist")
+                    name = renpy.input("Enter your given Name")
 
                     name = name.strip() or "Kaoru"
 
-                    "Your name is [p]"
+                    surname = renpy.input ("Enter your Surname")
+
+                    surname = surname.strip() or "Sugimura"
+
+                    "Your name is [s] [k]"
 
                 return

@@ -1,26 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 11, in script call
-    call new_game
-  File "game/new_game.rpy", line 23, in script
-    jump rename_done
-ScriptError: could not find label 'rename_done'.
+  File "game/script.rpy", line 17, in script call
+    call first_morning
+  File "game/firstmorning_event.rpy", line 16, in script
+    p "(My name is [ps] [p], an 18 year old that has gone without a girlfriend for has long as he lived)"
+Exception: Sayer 'p' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 11, in script call
-    call new_game
-  File "game/new_game.rpy", line 23, in script
-    jump rename_done
-  File "C:\Users\RuiG_\Downloads\renpy-7.3.5-sdk\renpy\ast.py", line 1697, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\RuiG_\Downloads\renpy-7.3.5-sdk\renpy\script.py", line 898, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'rename_done'.
+  File "game/script.rpy", line 17, in script call
+    call first_morning
+  File "game/firstmorning_event.rpy", line 16, in script
+    p "(My name is [ps] [p], an 18 year old that has gone without a girlfriend for has long as he lived)"
+  File "C:\Users\RuiG_\Downloads\renpy-7.3.5-sdk\renpy\ast.py", line 678, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\RuiG_\Downloads\renpy-7.3.5-sdk\renpy\ast.py", line 576, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'p' is not defined.
 
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
 NanaKaoru 1.0
-Wed Apr 22 19:47:17 2020
+Thu Apr 23 20:19:20 2020

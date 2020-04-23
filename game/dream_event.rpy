@@ -22,6 +22,7 @@ label prologue_dream:
                     "I bring the wine to my lips and savour it." # Re-write needed
                     $ pCon = pCon + 1
                     $ first = False
+                    $renpy.notify("Confidence + 1")
                     jump wine_loop
                 else:
                     "I have already tasted the wine."
@@ -47,7 +48,7 @@ label prologue_dream:
 
     "I can't help but smirk, she isn't aware that those embarassed movements make her way more erotic."
 
-    p "Show me the back as well."
+    k "Show me the back as well."
 
     "She jumps at the sound of my voice and steals a glance my way, at this point even her ears are burning with shame."
 
@@ -57,7 +58,7 @@ label prologue_dream:
 
     "I can hardly contain my desire to pound her but I am a Dom, I am supposed to be in constant control."
 
-    p "I have to admit that this suit was worth every penny. {w}That look suits you, my Pet."
+    k "I have to admit that this suit was worth every penny. {w}That look suits you, my Pet."
 
     "???" "Thank you, Master."
 
@@ -67,7 +68,7 @@ label prologue_dream:
 
     "I lick my lips while holding back the excitement and once again remind myself that I am in control."
 
-    p "Now then, do it like you usually do."
+    k "Now then, do it like you usually do."
 
     "???" "...Yes"
 
@@ -81,9 +82,9 @@ label prologue_dream:
 
     "I stand up slowly and approach that captivating ass that is dangling in front of me."
 
-    p "Ah ah. {w}Begging by swaying your ass in the air like that, you are a dirty little slut aren't you my Pet?"
+    k "Ah ah. {w}Begging by swaying your ass in the air like that, you are a dirty little slut aren't you my Pet?"
 
-    p "You would like to show this to everyone at campus don't you? {w}Show them how big of a Masochistic Pervert you really are."
+    k "You would like to show this to everyone at campus don't you? {w}Show them how big of a Masochistic Pervert you really are."
 
     "Tears start to roll down her eyes and her blush grows even redder."
 
@@ -93,11 +94,11 @@ label prologue_dream:
 
     "I reach out my hand and squeeze that firm ass. {w}As I grip it I can feel her body convulse, what a heavenly feeling this is"
 
-    p "What an erotic ass. Look at how it sticks out, it is really made to just be grabbed."
+    k "What an erotic ass. Look at how it sticks out, it is really made to just be grabbed."
 
-    p "Do you want me to feast on it, my Pet?"
+    k "Do you want me to feast on it, my Pet?"
 
-    p "Let me make it even more erotic for you."
+    k "Let me make it even more erotic for you."
 
     "I take the cold wine that is left in my glass and slowly poor it over her warm snow white ass."
 
@@ -111,11 +112,11 @@ label prologue_dream:
 
     "I bring my hand up to mouth and lick the wine off of my palm. {w}My cock is so hard that it's starting to hurt, it just might tear through my pants at any moment."
 
-    p "Not addressing your Master correctly and giving him orders."
+    k "Not addressing your Master correctly and giving him orders."
 
-    p "You are being a very bad girl aren't you?"
+    k "You are being a very bad girl aren't you?"
 
-    p "Looks like you need to by disciplined."
+    k "Looks like you need to by disciplined."
 
     "I can't hold back any longer, it is finally time."
 
@@ -133,6 +134,6 @@ label prologue_dream:
 
     "THUNK"
 
-    p "OOF!!!"
+    k "OOF!!!"
 
     return
