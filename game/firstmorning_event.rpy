@@ -1,4 +1,5 @@
 label first_morning:
+    default dressed = False
     scene bg-kaoru_room_day
 
     "I feel a dull pain on the back of my head and find myself staring at a very familiar ceiling."
@@ -99,6 +100,29 @@ label first_morning:
 
     "Mom leaves the room and closes the door behind her"
 
-    k "Let's get readdy then"
+    k "Let's get ready then"
 
-    call room_navigation
+    label notDressed_loop:
+        menu:
+            "Change clothes":
+                if dressed = False:
+                    "I picked up my uniform and changed into it"
+                    $ dressed = True
+                    jump notDressed_loop
+                else:
+                    "I alredy changed into my uniform"
+                    jump notDressed_loop
+            "Leave Room":
+                if dressed = False:
+                    "I still haven't changed into my uniform"
+                    jump notDressed_loop
+                else:
+                    k "(I better not keep Nana waiting for much longer)"
+
+    "As I am about to leave I remember that it might be better for me to tuck away the bondage suit"
+
+    "I pick it up off of the bed and put it away in a drawer"
+
+    "On my way out Mom handed me a sandwich and some lunch money"
+
+    "I stuff the sandwich into my mouth as I go down the stairs, since me and Nana live on the top floor of a 8 storie building."

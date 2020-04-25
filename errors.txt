@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/room_navigation.rpy", line 3: choice menuitem expects a non-empty block.
-    "Closet":
-             ^
+File "game/firstmorning_event.rpy", line 108: choice menuitem expects a non-empty block.
+    "Leave Room":
+                 ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Thu Apr 23 21:17:56 2020
+Sat Apr 25 18:56:33 2020

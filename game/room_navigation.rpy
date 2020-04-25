@@ -1,6 +1,7 @@
 label room_navigation:
     menu:
-        "Closet":
-
+        "Change clothes":
+            "I picked up my uniform and changed into it"
+            $ dressed = True
         "Leave Room":
             return

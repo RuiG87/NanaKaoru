@@ -1,6 +1,5 @@
 label prologue_dream:
     default first = True
-
     scene bg-kaoru_room_night
 
     "Slowly I open my eyes. {w}I glance around, trying to get bearing of my surroundings"
@@ -14,7 +13,6 @@ label prologue_dream:
             "I notice that in front of me there are a number of objects placed on a peculiar wall rack. {w}Whips, Gags, Eye Masks, etc...all of them SM toys."
 
             "I glance down and notice that I am holding a glass of red wine on my left hand and on my right...{w}there is what seems to be a rather high quality leather leash."
-
     label wine_loop:
         menu:
             "Indulge in the wine":
@@ -128,8 +126,8 @@ label prologue_dream:
             "I line my head to her entrance and she lets out a moan. I grin as it's finally time and thrust in her."
         "Fuck her pussy":
             "I unzip my pants and bring my cock out, I move the thin leather cloth that is covering her pink tight pussy lips."
-            "I line my head to her entrance and she lets out a moan. I grin as it's finally time and thrust in her."
 
+            "I line my head to her entrance and she lets out a moan. I grin as it's finally time and thrust in her."
     scene black
 
     "THUNK"
