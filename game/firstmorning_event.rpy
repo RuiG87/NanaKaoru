@@ -60,6 +60,8 @@ label first_morning:
 
     "My mother glances behind her and a girl peeks through the open door."
 
+    show eileen happy
+
     "She stands straight with a hand resting on her hip. {w}And looking as beautiful as always."
 
     "This is Chigusa Nana. Same age as me, she is my next door neighbour and my childhood friend."
@@ -96,33 +98,136 @@ label first_morning:
 
     "Nana turns around and walks away from my room"
 
+    hide eileen happy
+
     "Mom" "Hurry up, don't leave her waiting too long. I will pack a Sandwich for you to eat on your way."
 
     "Mom leaves the room and closes the door behind her"
 
     k "Let's get ready then"
 
-    label notDressed_loop:
+    label .notDressed_loop:
         menu:
             "Change clothes":
-                if dressed = False:
+                if dressed == False:
                     "I picked up my uniform and changed into it"
                     $ dressed = True
-                    jump notDressed_loop
+                    jump .notDressed_loop
                 else:
                     "I alredy changed into my uniform"
-                    jump notDressed_loop
+                    jump .notDressed_loop
             "Leave Room":
-                if dressed = False:
+                if dressed == False:
                     "I still haven't changed into my uniform"
-                    jump notDressed_loop
+                    jump .notDressed_loop
                 else:
                     k "(I better not keep Nana waiting for much longer)"
 
     "As I am about to leave I remember that it might be better for me to tuck away the bondage suit"
 
-    "I pick it up off of the bed and put it away in a drawer"
+    "I pick it off of the bed and put it away in a drawer"
+
+    scene black
 
     "On my way out Mom handed me a sandwich and some lunch money"
 
     "I stuff the sandwich into my mouth as I go down the stairs, since me and Nana live on the top floor of a 8 storie building."
+
+    call lockmap
+    $ school = True
+    $ inevent = True
+    call worldmap
+    call unlockmap
+    $ inevent = False
+
+    scene bg-road
+
+    "I am walking alongside Nana while she is nagging me"
+
+    n "I give up, did you really forget that you had lessons today?"
+
+    k "..."
+
+    n "You do know that if you fail these you will be held back a year right?"
+
+    k "I don't see how it has anything to do with you. Rather why are you even tagging along?"
+
+    n "Us from Class A have things to do as well"
+
+    "Nana glances over at me with an inquisitive look"
+
+    n "Why are you slouching?"
+
+    k "I didn't get enough sleep"
+
+    "I already hunch forward as it is but whenever I look at her it reminds of my dread and I feel my cock starting to harden"
+
+    n "You end up looking shorter that way"
+
+    "Nana wraps her arm around me and pulls me towards her"
+
+    k "!!!"
+
+    "I feel her massive tits pull up against me and the images from my dream become even more vivid"
+
+    n "You have to stand up straight or else it will be bad for your back."
+
+    k "(Her tits are so soft)"
+
+    "My cock jumps to attention istantly. I pull away from Nana and slouch forward while using my bag to cover my crotch"
+
+    n "Eh? What's wrong?"
+
+    n "Why are you slouching forward more than before?"
+
+    k "No reason! Just stay away and touch get too touchy-feely with me."
+
+    k "(It's your fucking fault! If I could I would shove my cock down your throat damn it!)"
+
+    n "Why do y..."
+
+    "Nana is about to say something when she is cut short"
+
+    "???" "Nana"
+
+    n "Ah! Yukari...and Kikuko as well"
+
+    "It's the girls from A class"
+
+    "The short haired brunette that called out to Nana is Mutsuki Yukari, the student council secretary"
+
+    "They have been friends since Nana's first year and are constantly seen together on campus"
+
+    "If you ask me she takes Nana's friendship for granted, constanly Nana to help with her student council work despite the fact that Nana isn't a member"
+
+    "And on top of that she doesn't seem to like me very much despite the fact that we haven't really interacted before"
+
+    y "..."
+
+    k "(Hmm? Why is she glaring at me? The bitch needs to lighten up and get a fat cock stuck up her ass)"
+
+    "On the other hand Yagami Kikuko, the long haired one is the student council president"
+
+    "She has this prideful and cunning air surrounding her, she is known to be able to get others to do what she wants"
+
+    ki "Good morning [s]"
+
+    k "..."
+
+    "That smile of hers gives me cold sweat and I don't know how to deal with her since it seems like she can see through you"
+
+    "If we were to follow clichés she would normally be the type to enjoy being degraded once she submits to you"
+
+    n "[k] stop bring rude, you can at least answer back"
+
+    k "tch"
+
+    n "Stop being so distant and come and walk next to us"
+
+    k "Just go on and stay away from me. I wouldn't want to be seen hanging around you stuck up bastards from A-Class"
+
+    n "If you are going to be like that then see if I care when people call you a creep, you idiot!!"
+
+    "I increase my pace and walk from Nana and the other two..."
+
+    "Fuck! Why am I always like this?"

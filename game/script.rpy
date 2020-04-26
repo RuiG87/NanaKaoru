@@ -3,6 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 call variables
+call unlockmap
 
 # The game starts here.
 label start:
