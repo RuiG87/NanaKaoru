@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/firstmorning_event.rpy", line 108: choice menuitem expects a non-empty block.
-    "Leave Room":
-                 ^
+File "game/firstmorning_event.rpy", line 242: choice menuitem expects a non-empty block.
+    "Skip lessons and slack off":
+                                 ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Sat Apr 25 18:56:33 2020
+Sun Apr 26 18:23:35 2020

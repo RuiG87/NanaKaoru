@@ -111,7 +111,7 @@ label first_morning:
             "Change clothes":
                 if dressed == False:
                     "I picked up my uniform and changed into it"
-                    $ dressed = True
+                    $dressed = True
                     jump .notDressed_loop
                 else:
                     "I alredy changed into my uniform"
@@ -134,13 +134,13 @@ label first_morning:
     "I stuff the sandwich into my mouth as I go down the stairs, since me and Nana live on the top floor of a 8 storie building."
 
     call lockmap
-    $ school = True
-    $ inevent = True
+    $school = True
+    $inevent = True
     call worldmap
     call unlockmap
-    $ inevent = False
+    $inevent = False
 
-    scene bg-road
+    scene bg-road_day
 
     "I am walking alongside Nana while she is nagging me"
 
@@ -231,3 +231,14 @@ label first_morning:
     "I increase my pace and walk from Nana and the other two..."
 
     "Fuck! Why am I always like this?"
+
+    menu:
+        "Attend lessons":
+            $kInt = kInt + 1
+            $renpy.notify("Inteligence + 1")
+
+            "I spent the entire day attending lessons"
+
+        "Skip lessons and slack off":
+
+            "I decided to skip lessons and spent the entire day slacking off"#will allow from other evnts later on

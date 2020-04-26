@@ -20,7 +20,8 @@ label worldmap:
                 jump worldmap
             else:
                 if inevent == False:
-                    jump room_navigation
+                    "to be implemented later"
+                    jump worldmap
                 else:
                     return
         "Tachibana Bondage":
@@ -29,7 +30,8 @@ label worldmap:
                 jump worldmap
             else:
                 if inevent == False:
-                    jump room_navigation
+                    "to be implemented later"
+                    jump worldmap
                 else:
                     return
         "Work":
@@ -38,7 +40,8 @@ label worldmap:
                 jump worldmap
             else:
                 if inevent == False:
-                    jump room_navigation
+                    "to be implemented later"
+                    jump worldmap
                 else:
                     return
         "Park":
@@ -47,6 +50,7 @@ label worldmap:
                 jump worldmap
             else:
                 if inevent == False:
-                    jump room_navigation
+                    "to be implemented later"
+                    jump worldmap
                 else:
                     return

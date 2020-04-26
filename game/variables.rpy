@@ -8,12 +8,13 @@ label variables:
     define y = Character("Yukari")
     define ki = Character("Kikuko")
     #Kaoru Stats
-    define pStr = 1
-    define pSta = 0
-    define pKnow = 1
-    define pCon = 0
-    define pSad = 3
-    define Dom = 2
+    define kStr = 1
+    define kSta = 1
+    define kKnow = 5
+    define kCon = 0
+    define kSad = 3
+    define kDom = 2
+    define kInt = 2
     #Event specific
     define inevent = False
 

@@ -18,7 +18,7 @@ label prologue_dream:
             "Indulge in the wine":
                 if first:
                     "I bring the wine to my lips and savour it." # Re-write needed
-                    $ pCon = pCon + 1
+                    $ kCon = pCon + 1
                     $ first = False
                     $renpy.notify("Confidence + 1")
                     jump wine_loop
