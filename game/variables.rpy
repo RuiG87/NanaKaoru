@@ -18,6 +18,8 @@ label variables:
     #Event specific
     define inevent = False
 
+    define audio.breathermusic = "music/dream_sequence_song.mp3"
+
     return
 
 label unlockmap:

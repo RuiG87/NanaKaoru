@@ -1,36 +1,34 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 18, in script call
-    call first_morning
-  File "game/firstmorning_event.rpy", line 139, in script call
-    call worldmap
-  File "game/worldmap.rpy", line 2, in script
-    if daytme == True:
-  File "game/worldmap.rpy", line 2, in <module>
-    if daytme == True:
-NameError: name 'daytme' is not defined
+  File "game/script.rpy", line 15, in script call
+    call prologue_dream
+  File "game/dream_event.rpy", line 138, in script
+    k "OOF!!!"
+  File "game/dream_event.rpy", line 138, in <module>
+    k "OOF!!!"
+NameError: name 'punch' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 18, in script call
-    call first_morning
-  File "game/firstmorning_event.rpy", line 139, in script call
-    call worldmap
-  File "game/worldmap.rpy", line 2, in script
-    if daytme == True:
-  File "C:\Users\RuiG_\OneDrive\Desktop\renpy-7.3.5-sdk\renpy\ast.py", line 1832, in execute
-    if renpy.python.py_eval(condition):
+  File "game/script.rpy", line 15, in script call
+    call prologue_dream
+  File "game/dream_event.rpy", line 138, in script
+    k "OOF!!!"
+  File "C:\Users\RuiG_\OneDrive\Desktop\renpy-7.3.5-sdk\renpy\ast.py", line 707, in execute
+    say_menu_with(self.with_, renpy.game.interface.set_transition)
+  File "C:\Users\RuiG_\OneDrive\Desktop\renpy-7.3.5-sdk\renpy\ast.py", line 537, in say_menu_with
+    what = renpy.python.py_eval(expression)
   File "C:\Users\RuiG_\OneDrive\Desktop\renpy-7.3.5-sdk\renpy\python.py", line 2059, in py_eval
     return py_eval_bytecode(code, globals, locals)
   File "C:\Users\RuiG_\OneDrive\Desktop\renpy-7.3.5-sdk\renpy\python.py", line 2052, in py_eval_bytecode
     return eval(bytecode, globals, locals)
-  File "game/worldmap.rpy", line 2, in <module>
-    if daytme == True:
-NameError: name 'daytme' is not defined
+  File "game/dream_event.rpy", line 138, in <module>
+    k "OOF!!!"
+NameError: name 'punch' is not defined
 
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
 NanaKaoru 1.0
-Sun Apr 26 14:46:18 2020
+Wed Apr 29 17:18:53 2020

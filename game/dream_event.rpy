@@ -1,6 +1,7 @@
 label prologue_dream:
     default first = True
     scene bg-kaoru_room_night
+    play music breathermusic fadein 1
 
     "Slowly I open my eyes. {w}I glance around, trying to get bearing of my surroundings"
 
@@ -26,7 +27,7 @@ label prologue_dream:
                     "I have already tasted the wine."
                     jump wine_loop
             "Follow the leash":
-                $ pCon = pCon + 0
+                $ kCon = kCon + 0
 
     "I glance over to the leash on my right hand, my eyes slowly trace along it's length and my gaze lands on what is attached to the other end."
 
@@ -130,7 +131,9 @@ label prologue_dream:
             "I line my head to her entrance and she lets out a moan. I grin as it's finally time and thrust in her."
     scene black
 
-    "THUNK"
+    stop music
+
+    "THUNK" with vpunch
 
     k "OOF!!!"
 
